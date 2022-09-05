@@ -1,7 +1,7 @@
 C++ is a general-purpose Programming Language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes" (source: Wikipedia).
 
-The goal of these Modules is to Introduce us to Object-Oriented Programming.
-This will be the Starting Point of your C++ Journey.
+Nine Introductory C++ Modules to Object-Oriented Programming.
+This will be the Starting Point of the C++ Journey.
 
 
 Good Tutorials from Intra:
