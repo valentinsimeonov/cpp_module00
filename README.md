@@ -44,3 +44,8 @@ wcin	Standard input stream (wide) (object)
 wcout	Standard output stream (wide) (object)
 wcerr	Standard output stream for errors (wide-oriented) (object)
 wclog	Standard output stream for logging (wide) (object)
+
+
+4. https://www.geeksforgeeks.org/stdstringcompare-in-c/
+
+For the Compare Function

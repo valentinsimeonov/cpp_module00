@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   phonebook.cpp                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/08 18:49:02 by vsimeono          #+#    #+#             */
+/*   Updated: 2022/09/08 18:49:18 by vsimeono         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "PhoneBook.Class.hpp"
 
 int	check_input(std::string str, int index, int count)
@@ -59,7 +71,7 @@ int main(void)
 				std::cout << "PhoneBook is Empty" << std::endl;
 			else
 			{
-				while ( j < i || j < count)
+				while (j < i || j < count)
 				{
 					book.contact_search(j);
 					j++;

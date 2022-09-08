@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   PhoneBook.Class.cpp                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/08 18:48:57 by vsimeono          #+#    #+#             */
+/*   Updated: 2022/09/08 18:48:58 by vsimeono         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "PhoneBook.Class.hpp"
 
 PhoneBook::PhoneBook(void)
@@ -31,7 +43,7 @@ std::string PhoneBook::format_contact(std::string str)
 		detail = str.substr(0, 10);
 		detail[9] = '.';
 	}
-	else if (i > 9)
+	else if (i < 9)
 	{
 		while (j >= 0)
 		{
